@@ -11,12 +11,14 @@
 div.page
 {
 	display: table;	
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 body
 {
 	font-family:sans-serif;
-	width: 800px;
 }
 
 section

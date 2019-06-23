@@ -1,0 +1,100 @@
+
+body
+{
+	display: table;	
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+section
+{
+	margin:0px;
+	padding:0px;
+	margin-bottom:10px;
+	height: 60px;
+	border: 2px;
+	width: 350px;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 3px;
+}
+
+section a
+{	
+	display: inline;
+	text-decoration: none;
+	font-size: 16pt;
+}
+
+section div.img
+{
+	display: inline-block;
+	width: 30%;	
+}
+
+section img
+{
+	height: 60px;
+	width: 60px;
+	vertical-align:middle;
+}
+
+section div.container
+{
+	width: 95%;
+	height: 95%;
+	border-radius: 20px;
+}
+
+section div.label
+{
+	display: inline-block;
+	width: 55%;
+	text-align:left;
+}
+
+section#resume
+{
+	border-color: rgba(49,140,231,.85);
+	background-color: rgba(49,140,231,.25);
+}
+
+section#resume a
+{
+	color: darkblue;
+}
+
+section#portfolio
+{
+	border-color: rgba(0,0,100,.85);
+	background-color: rgba(0,0,100,.25);
+}
+
+section#portfolio a
+{
+	color: darkblue;
+}
+
+section#linkedin
+{
+	background-color:rgba(49,140,231,.35);
+	border-color: blue;
+}
+
+section#linkedin a
+{
+	color: darkblue;
+}
+
+section#github
+{
+	background-color:#24292e;
+}
+
+section#github a
+{
+	color: white;
+}

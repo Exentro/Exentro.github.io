@@ -5,7 +5,16 @@
 	<meta charset = "Utf-8"/>
 	<title>Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="css/portfolio.css"/>
+	<link rel="stylesheet" type="text/css" href="css/gallery.css"/>
 </head>
+	
+<script>
+	function myFunction(imgs) {
+		var expandImg = document.getElementById("expandedImg");
+		expandImg.src = imgs.src;
+		expandImg.parentElement.style.display = "block";
+	}
+</script>
 
 <body>
 	<section id="trajectonav">
@@ -13,11 +22,41 @@
 		<h2>TrajectoNav</h2>
 		<div class="video">
 			<video width="640" height="360" controls>
-				<source src="vid/trajecto.mp4" type="video/mp4">
+				<source src="trajecto/trajecto.mp4" type="video/mp4">
 				Your browser does not support the HTML video tag.
 			</video> 			
 			<div class="videocomment">
 				Low quality video taken with the in-game video capture (RockVr)
+			</div>
+		</div>
+		
+		<div class="gallery">	
+			<div class="container">			
+				<img id="expandedImg" style="width:100%">
+			</div>
+			
+			<div class="row">
+				<div class="column" style="width:14.2%" >
+					<img src="trajecto/trajecto_1.png" onclick="myFunction(this);" onload="myFunction(this);">
+				</div>				
+				<div class="column" style="width:14.2%" >
+					<img src="trajecto/trajecto_2.png" onclick="myFunction(this);">
+				</div>
+				<div class="column" style="width:14.2%" >
+					<img src="trajecto/trajecto_3.png" onclick="myFunction(this);">
+				</div>
+				<div class="column" style="width:14.2%" >
+					<img src="trajecto/trajecto_4.png" onclick="myFunction(this);">
+				</div>
+				<div class="column" style="width:14.2%" >
+					<img src="trajecto/trajecto_5.png" onclick="myFunction(this);">
+				</div>
+				<div class="column" style="width:14.2%" >
+					<img src="trajecto/trajecto_6.png" onclick="myFunction(this);">
+				</div>
+				<div class="column" style="width:14.2%" >
+					<img src="trajecto/trajecto_7.png" onclick="myFunction(this);">
+				</div>
 			</div>
 		</div>
 		

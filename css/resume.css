@@ -2,11 +2,9 @@
 {
 	div.page
 	{
-		/*
 		page-break-before: avoid;
 		page-break-after: always;
 		padding: 10mm 0mm 10mm 0mm;
-		*/
 	}
 }
 
@@ -36,7 +34,7 @@ section
 	border-style: solid;
 	border-radius: 10px 10px 10px 10px;
 	box-sizing:border-box;
-	font-size: 14px;
+	font-size: 15px;
 }
 section h2
 {		
@@ -105,7 +103,7 @@ body>div>div
 #experiences>ul, 
 #education>ul
 {
-	padding:3px;
+	padding:5px;
 	margin:0px;
 	list-style-type:none;
 	position: relative;
@@ -115,7 +113,7 @@ body>div>div
 #education>ul>li
 {
 	width:100%;
-	padding-bottom: 3px;
+	padding-bottom: 5px;
 	display:inline-block;
 	box-sizing:border-box;
 }
@@ -129,8 +127,8 @@ body>div>div
 {
 	margin:0px;
 	padding:0px;
-	padding-top:3px;
-	padding-bottom:3px;
+	padding-top:5px;
+	padding-bottom:5px;
 	box-sizing:border-box;
 }
 #experiences>ul>li>div:first-child, 
@@ -138,7 +136,7 @@ body>div>div
 {
 	text-align:center;
 	display:inline-block;
-	width:170px;
+	width:130px;
 }
 #experiences>ul>li>div:first-child>time, 
 #education>ul>li>div:first-child>time
@@ -180,10 +178,10 @@ body>div>div
 {
 	display: inline-block;
 	position:relative;
-	padding-left:25px;
+	padding-left:15px;
 	vertical-align:top;
 	text-align: left;
-	width: calc(100% - 170px);
+	width: calc(100% - 130px);
 }
 #experiences>ul>li>div:last-child>h3, 
 #education>ul>li>div:last-child>h3
@@ -196,21 +194,39 @@ body>div>div
 {
 	font-weight: bold;
 }
+
 #experiences>ul>li>div:last-child>span.company::before, 
 #education>ul>li>div:last-child>span.company::before
 {
 	content:' @ ';
 }
+#experiences>ul>li>div:last-child>span.company, 
+#education>ul>li>div:last-child>span.company
+{
+	font-size: 13px;
+}
+
 #experiences>ul>li>div:last-child>span.localisation::before, 
 #education>ul>li>div:last-child>span.localisation::before
 {
 	content:' (';
 }
+#experiences>ul>li>div:last-child>span.localisation, 
+#education>ul>li>div:last-child>span.localisation
+{
+	font-size: 13px;
+}
+
 #experiences>ul>li>div:last-child>span.website::before, 
 #education>ul>li>div:last-child>span.website::before
 {
 	content:' - ';
 	font-weight: normal;
+}
+#experiences>ul>li>div:last-child>span.website, 
+#education>ul>li>div:last-child>span.website
+{
+	font-size: 13px;
 }
 #experiences>ul>li>div:last-child>span.website::after, 
 #education>ul>li>div:last-child>span.website::after
@@ -218,6 +234,7 @@ body>div>div
 	content:')';
 	font-weight: normal;
 }
+
 #experiences>ul>li>div:last-child>ul, 
 #education>ul>li>div:last-child>ul
 {
@@ -339,7 +356,7 @@ span.small
 }
 #contact div
 {
-	padding-left:30px;
+	padding-left:20px;
 	display:inline-block;
 	vertical-align:middle;
 	text-align:center;
